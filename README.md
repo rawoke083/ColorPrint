@@ -1,7 +1,7 @@
 ColorPrint
 ==========
 
-a Color-Printf library for GO
+Color-Printf library for GO
 
 Examples
 ==========
