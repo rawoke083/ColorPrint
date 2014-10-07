@@ -19,6 +19,9 @@ const CL_WHITE string = "\x1b[1;37;1m"
 const CL_LIGHT_GRAY string = "\x1b[1;37;1m"
 const CL_GRAY string = "\x1b[0;37;2m"
 
+const CL_MAGENTA string = "\x1b[0;35;2m"
+const CL_LIGHT_MAGENTA string = "\x1b[1;35;1m"
+
 func ToColor(msg string, col string) string {
 	return col + msg + "\x1b[0m"
 }
